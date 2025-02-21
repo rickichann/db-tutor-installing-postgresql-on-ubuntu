@@ -80,20 +80,6 @@ Restart PostgreSQL:
 sudo systemctl restart postgresql
 ```
 
-### Configure Security Group in AWS
-1. Open AWS Console > EC2 > Security Groups.
-2. Edit the Security Group associated with your EC2 instance.
-3. Add an inbound rule:
-   - **Protocol**: TCP
-   - **Port Range**: 5432
-   - **Source**: Your IP or `0.0.0.0/0` (for public access, not recommended)
-
-## Step 8: Verify Connection
-Try connecting from your local machine:
-```sh
-psql -h your-ec2-ip -U postgres -d postgres
-```
-
 ## Conclusion
 You have successfully installed PostgreSQL on an EC2 Ubuntu instance! 🚀 If you need further assistance, feel free to ask.
 
