@@ -1,10 +1,8 @@
 # Install PostgreSQL on EC2 Ubuntu
 
 ## Step 1: Connect to EC2 Instance
-SSH into your EC2 instance:
-```sh
-ssh -i your-key.pem ubuntu@your-ec2-instance-ip
-```
+
+Connect to EC2 Instance Using AWS Systems Manager
 
 ## Step 2: Update System Packages
 Update the package list:
